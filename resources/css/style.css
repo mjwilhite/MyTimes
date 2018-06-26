@@ -1,13 +1,16 @@
 body {
+  border: 1px solid black;
   margin: 0;
   font-family: "Georgia", serif;
   font-size: 17px;
   color: black;
 }
 a {
+  border: 1px solid black;
   color: black;
 }
 header {
+  border: 1px solid black;
   display: flex;
   align-items: center;
   z-index: 1;
@@ -22,6 +25,7 @@ header {
 }
 
 .logo {
+  border: 1px solid black;
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -29,19 +33,119 @@ header {
 }
 
 .logo span {
+  border: 1px solid black;
   color: MediumAquamarine;
 }
 
 .logo img {
+  border: 1px solid black;
   width: 70px;
   height: 60px;
   margin-right: 12px;
 }
 header nav {
+  border: 1px solid black;
   padding-right: 40px;
 }
 
 nav span {
+  border: 1px solid black;
   display: inline-block;
   padding: 20px 10px;
+}
+
+/* First Column */
+
+.main-content {
+  border: 1px solid black;
+  display: flex;
+}
+
+.column {
+  border: 1px solid black;
+  display: flex;
+
+}
+
+.column.big {
+  border: 1px solid black;
+  width: 630px;
+
+}
+
+.main-story .image-content {
+  border: 1px solid black;
+
+}
+
+.main-story .image-content span {
+  border: 1px solid black;
+  margin-left: 20px;
+
+}
+
+.earth-spins.image-content {
+  border: 1px solid black;
+
+}
+
+.hipster-camera.image-content {
+  border: 1px solid black;
+
+}
+
+/* Second Column */
+
+.column.medium {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.cat-ceo.image-content {
+  border: 1px solid black;
+
+}
+
+/* Third Column */
+
+.column.small {
+  border: 1px solid black;
+  width: 240px;
+}
+
+img.cookie {
+  border: 1px solid black;
+
+}
+
+.news-bites h3 {
+  border: 1px solid black;
+
+}
+
+.new-bites .bite {
+  border: 1px solid black;
+
+}
+
+.bite span {
+  border: 1px solid black;
+
+}
+
+/* Footer*/
+
+footer {
+  border: 1px solid black;
+
+}
+
+footer .title{
+  border: 1px solid black;
+
+}
+
+footer nav {
+  border: 1px solid black;
+
 }
